@@ -1,0 +1,25 @@
+/* .table-content {
+    max-width: 800px;
+} */
+
+.table {
+    max-width:500px;
+}
+
+
+.form-group, .form-group>select{
+    min-width: 550px;
+}
+
+#news_name {
+    max-width: 400px;
+}
+
+form>input {
+    min-width: 70px;
+    min-height: 30px;
+}
+
+#add_news_id>label>input,#add_news_id>label>textarea {
+    width: 700px;
+}

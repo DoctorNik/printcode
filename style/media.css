@@ -1,0 +1,441 @@
+/* для мобилок */
+
+@media (max-width: 1079px) {
+    .fullscreen-bg {
+        display: none;
+    }
+
+    #main_news_container {
+        margin: 80px auto;
+        padding-left: 15px;
+    }
+    .cart__back {
+        width: 320px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .card-title {
+        font-size: 14px !important;
+        margin-top: 10px;
+        
+    }
+
+    #main_news   {
+        min-width: 80vw;
+        padding-left: 0px !important;
+    }
+    .cart__news {
+        width: fit-content;
+    }
+
+    #additional_news{
+        min-width: 100vw;
+
+    } 
+    .cart__item  {
+        width: 320px;
+
+    }
+}
+
+.from_crpt {
+    display: none;
+}
+
+/* .cart___news {
+              width: 15rem !important;
+          } */
+@media (max-width: 1480px) {
+    .fullscreen-bg {
+        height: 70vh;
+    }
+.cart__news>h5  {
+    font-size: 26px;
+}
+.cart__news>h4 {
+    font-size: 24px;
+}
+
+}
+
+
+
+
+@media (max-width: 1680px) and (min-width:1480px) {
+    .fullscreen-bg {
+        height: 80vh;
+    }
+}
+
+
+
+
+@media (max-width:700px) {
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+    /* start admin page */
+#block_admin_forms {
+        max-width:370px;
+
+    }
+
+.table {
+    max-width:370px;
+}
+
+#add_news_id, #add_news_id>input, #add_news_id>label>input, #add_news_id>label>textarea ,#cat_num,#cat_num>label>input{
+
+    max-width: 360px ; 
+}
+.form-group, .form-group>select,  #add_news_id>label>select,#cat_num,#cat_num>label>select,  #del_news>label>select{
+    max-width: 350px;
+}
+
+#news_name {
+    max-width: 370px;
+}
+
+form>input {
+    min-width: 70px;
+    min-height: 30px;
+}
+
+#add_news_id>label>input,#add_news_id>label>textarea  {
+    width: 370px;
+}
+/* end admin page */
+    #cheme p {
+        font-size: 12px;
+        line-height: 12px;
+        font-family: Roboto;
+    }
+ 
+    .about_us {
+        text-align: center;
+    }
+
+    #head_news {
+        margin-top: 50px;
+    }
+    
+#cheme div img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.card-body {
+border: solid 1px rgba(72, 74, 83, 0.10);
+box-shadow: -10px -10px 26px -5px rgba(34, 60, 80, 0.15),
+10px 10px 26px -5px rgba(34, 60, 80, 0.15);
+margin-bottom: 20px;
+
+}
+
+
+#main_news_container {
+    margin:100px 0px 10px 10px !important; 
+
+   padding-left: 5px !important;
+}
+
+#main_news {
+    padding-left: 5px !important;
+    margin: 10px 10px !important; 
+}
+
+    .main_article {
+        display: none;
+    }
+
+    .container__description h3 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 28px;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .container__description .btn {
+        background-color: #F2EB3B;
+        border: none;
+        width: 12em;
+        height: 2.5em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        position: absolute;
+        left: -5%;
+    }
+
+    .container__description {
+        position: absolute;
+        top: 30%;
+        width: 40%;
+        left: 25%;
+        z-index: 5;
+        color: white;
+        font-family: 'Montserrat';
+    }
+
+    /* header_for_mobi end*/
+
+
+    /* about us for mobi */
+    .about_title {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about_us h2 {
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+
+
+    #description_mark {
+        display: none;
+    }
+
+
+    .mark_title>p{
+       
+        font-size: 35px !important;
+        
+    }
+
+    .cart___news {
+        margin: 0 auto;
+
+
+    }
+
+    #contact_text>p {
+
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 138%;
+        letter-spacing: 0.02em;
+        color: rgba(72, 74, 83, 0.75);
+
+    }
+
+    .contact_map_mobi {
+        display: block;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .contact_map_mini {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 323px) {
+
+    .img_centa_print {
+        display: none;
+    }
+}
+
+/* adapt 6 7 8 */
+
+@media (max-width: 380px) {
+
+    .container__description .btn {
+        background-color: #F2EB3B;
+        border: none;
+        width: 12em;
+        height: 2.5em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+    }
+
+    .container__description {
+        position: absolute;
+        top: 30%;
+        width: 55%;
+        left: 25%;
+        z-index: 5;
+        color: white;
+        font-family: 'Montserrat';
+    }
+
+}
+
+
+@media (max-width: 414px) {
+            .container__description {
+        position: absolute;
+        top: 30%;
+        width: 60%;
+        left: 20%;
+        z-index: 5;
+        color: white;
+        font-family: 'Montserrat';
+    }      
+
+        .container__description .btn {
+        background-color: #F2EB3B;
+        border: none;
+        width: 12em;
+        height: 2.5em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        position: absolute;
+        left: 10%;
+    } 
+    #cheme p {
+        font-size: 9px;
+        line-height: 9px;
+        font-family: Roboto;
+    }
+    #cheme div.top:before,
+    #cheme div.top:after {
+        content: '';
+        display: none;
+        width: 26px;
+        height: 52px;
+        position: absolute;
+        background: url(../img/mark/dott.png)0 0 no-repeat;
+        top: 100px;
+        left: -60px;
+    }
+
+    
+#cheme div img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+
+}
+
+
+/* adapt se */
+@media (max-width: 330px) {
+    .menu_title_brand img{
+        display: none;
+    }
+    .contact_map_mobi {
+        display: none;
+    }
+
+    .contact_map_se {
+        display: block !important;
+
+    }
+
+    .cart___news {
+        width: 18rem !important;
+    }
+
+    .about_title {
+       
+        font-weight: 300;
+        font-size: 18px;
+        margin:10px 10px 0 10px;
+    }
+    #head_news h2 {
+        margin-top: 0 !important;
+    }
+    .container__description .btn {
+        background-color: #F2EB3B;
+        border: none;
+        width: 12em;
+        height: 2.5em;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        position: absolute;
+        left: 0;
+    }
+
+    .container__description {
+        position: absolute;
+        top: 30%;
+        width: 55%;
+        left: 23%;
+        z-index: 5;
+        color: white;
+        font-family: 'Montserrat';
+    }
+    
+
+
+#cheme {
+    text-align: center;
+    margin: 5px 0 10px;
+    margin: 0 auto;
+
+}
+
+#cheme h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#cheme p {
+    font-size: 8px;
+    line-height: 8px;
+    font-family: Roboto;
+}
+
+#cheme div {
+    width: 17% !important;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 70px;
+}
+
+#cheme div.top {
+    margin-top: -40px;
+    position: relative;
+}
+
+#cheme div.top:before,
+#cheme div.top:after {
+    content: '';
+    display: none;
+    width: 26px;
+    height: 52px;
+    position: absolute;
+    background: url(../img/mark/dott.png)0 0 no-repeat;
+    top: 100px;
+    left: -60px;
+}
+
+#cheme div.top:after {
+    background-position: -75px 0;
+    left: inherit;
+    right: -60px;
+}
+
+#cheme div img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+
+
+}
